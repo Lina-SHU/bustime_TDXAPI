@@ -1,0 +1,70 @@
+body{
+  padding-left: 142px;
+}
+
+.header{
+  width: 142px;
+  height: 100vh;
+  box-shadow: 3px 2px 6px rgba(121, 121, 121, 0.25);
+}
+
+.searchbar{
+  width: 300px;
+  box-shadow: 4px 4px 25px rgba(148, 148, 148, 0.25);
+}
+
+.searchBtn{
+  top: 16px;
+  right: 16px;
+  img{
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.leftBtn{
+  border-top-left-radius: 16px;
+}
+
+.rightBtn{
+  border-top-right-radius: 16px;
+}
+
+.selectRoute{
+  box-shadow: 2px 4px 7px rgba(196, 196, 196, 0.11);
+}
+
+#map{
+  height: 500px;
+  width: 100%;
+}
+
+.activeBtn{
+  background: $primary;
+  &:hover{
+    background: $primary;
+  }
+  &:focus{
+    background: $primary;
+  }
+}
+
+.nav-item{
+  .active{
+    background: #2A4AC3;
+  }
+}
+
+.nav-link{
+  &:hover{
+    background: #2A4AC3;
+  }
+}
+
+.results{
+  max-height: 400px;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none; 
+  }
+}
